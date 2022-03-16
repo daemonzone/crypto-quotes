@@ -34,7 +34,8 @@ _**db/coins_table.sql**_
 Gets the updated quotes from CoinmarketCap APIs
 
 `$ ./update_coins.sh` 
-  `% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current`
+
+ `% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current`
                                  `Dload  Upload   Total   Spent    Left  Speed`
 `100 4493k    0 4493k    0     0  1477k      0 --:--:--  0:00:03 --:--:-- 1477k`
   `% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current`
@@ -50,6 +51,7 @@ Gets the updated quotes from CoinmarketCap APIs
 Update local database with the last downloaded quotes (see previous script)
 
 `$ node update_db.js` 
+
   `  Connected to MySQL`
   `  Flushed`
   `  Data Imported`
