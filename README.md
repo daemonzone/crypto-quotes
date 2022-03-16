@@ -29,3 +29,28 @@ _**db/coins_table.sql**_
 
 ​	a mysql dump of the "coins" table structure used by this project
 
+## Example Usage
+
+Gets the updated quotes from CoinmarketCap APIs
+
+`$ ./update_coins.sh` 
+  `% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current`
+                                 `Dload  Upload   Total   Spent    Left  Speed`
+`100 4493k    0 4493k    0     0  1477k      0 --:--:--  0:00:03 --:--:-- 1477k`
+  `% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current`
+                                 `Dload  Upload   Total   Spent    Left  Speed`
+  `100 4541k    0 4541k    0     0   980k      0 --:--:--  0:00:04 --:--:-- 1019k`
+  `Connected to MySQL`
+  `Flushed`
+  `Data Imported`
+  `Data Imported`
+
+
+
+Update local database with the last downloaded quotes (see previous script)
+
+`$ node update_db.js` 
+  `  Connected to MySQL`
+  `  Flushed`
+  `  Data Imported`
+  `  Data Imported`
